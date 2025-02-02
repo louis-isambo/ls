@@ -1,5 +1,6 @@
 
 
-if(wi4.API){
+if(window.API){
     window.API.log("message from ls-editor")
+
 }
