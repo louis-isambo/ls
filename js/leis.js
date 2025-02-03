@@ -1,6 +1,6 @@
 
 
 if(window.LDA){
-    window.LDA.log("message from ls-editor server : "+ window.LDA.SU)
+    pageApi.invoke("fls:add", null, window.LDA.SU)
 
 }
