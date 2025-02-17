@@ -16,57 +16,6 @@
     <script src="./js/bundle.js"></script>
     <link rel="stylesheet" href="./css/customCss.css">
     <script src="./js/leis.js"></script>
-    <script>
-        let styles = {}
-
-        pageApi.invoke("add-pages", null, [{name: "Home"}, {name: "login"}, {name: "404"},])
-
-        pageApi.handle("page-init", function(ev, pageInfo, listener){
-           if(pageInfo.name == "login"){
-            listener(" <div> login page is there !</div>")
-           }
-            
-        })
-
-        pageApi.handle("page-style:init", function(e, id,page, data){
-           styles[id] = data
-            console.log("get initial stye id:"+id, "pageName :"+page);
-            
-            
-        })
-
-        
-        pageApi.handle("page-style:get", function(e, id, page, listener){
-            console.log("request style id : " + id, "pageName :"+page);
-            listener(styles[id])
-            
-            
-        })
-
-        pageApi.handle("page-style:save", function(e, data){
-            console.log("save style : ", data);
-            styles[data.id] =  data.style
-          
-        })
-    
-        pageApi.handle("page-element:selected", function(e, elemId, page){
-            console.log("element selected: ", elemId, "pageName : "+page);
-            
-          
-        })
-
-        pageApi.handle("page:show", function(e, pageInfo){
-            console.log("page visible ", pageInfo);
-            
-          
-        })
-
-        pageApi.handle("page-style:changed", function(e, style){
-            console.log("page element style changed ", style);
-            
-          
-        })
-    </script>
 </body>
 
 </html>

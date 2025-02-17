@@ -1041,7 +1041,7 @@
         return leistrap
     })();
 
-    var rootCss = ".leistrapUI-root{\r\n    position: relative;\r\n    --header-h : 60px;\r\n    --header-w : 100%;\r\n    --card-bg : #fff;\r\n    --side-fun-w : 50px;\r\n    \r\n}\r\n\r\nbody{\r\n    width: 100%;\r\n    height: 100vh;\r\n    overflow: hidden;\r\n}\r\n\r\n.leistrapUI-root .header{\r\n    position: fixed;\r\n    top: -10px;\r\n    background-color: var(--card-bg);\r\n    width: var(--header-w);\r\n    height:  calc(var(--header-h) + 10px);\r\n    border-bottom: 1px solid #ddd;\r\n    -webkit-user-select: none;\r\n    user-select: none;\r\n\r\n}\r\n\r\n.leistrapUI-root .sideFun{\r\n    padding: 10px;\r\n    position: fixed;\r\n    left: 0;\r\n    top: var(--header-h);\r\n    width: var(--side-fun-w);\r\n    height: calc(100vh - var(--header-h));\r\n    background-color: var(--card-bg);\r\n    border-right: 1px solid #ddd;\r\n    -webkit-user-select: none;\r\n    user-select: none;\r\n}\r\n\r\n.leistrapUI-root .contentContainer{\r\n    position: relative;\r\n    margin-top: calc(var(--header-h) - 23px );\r\n    margin-left: var(--side-fun-w);\r\n    width: calc(100% - var(--side-fun-w));\r\n    height: calc(100vh - var(--header-h)  - 8px); \r\n \r\n  \r\n}\r\n\r\n.leistrapUI-root .contentContainer .side{\r\n    width: 20%;\r\n    height: 100%;\r\n    background-color: var(--card-bg);\r\n    border-right: 1px solid #ddd;\r\n    -webkit-user-select: none;\r\n    user-select: none;\r\n    overflow: hidden;\r\n    overflow-y: auto;\r\n    padding: 20px;\r\n}\r\n\r\n.leistrapUI-root .contentContainer  .propSide{\r\n    width: 20%;\r\n    height: 100%;\r\n    background-color: var(--card-bg);\r\n    border-left: 1px solid #ddd;\r\n    padding: 4px 8px;\r\n    overflow: hidden;\r\n    overflow-y: auto;\r\n    -webkit-user-select: none;\r\n    user-select: none;\r\n}\r\n\r\n\r\n.leistrapUI-root .contentContainer .content{\r\n    position: relative;\r\n    width: 60%;\r\n    height:  100%;\r\n}\r\n\r\n.leistrapUI-root .contentContainer .content .workSpace{\r\n    position: relative;\r\n    width: 100%;\r\n    border: 0;\r\n    outline: 0;\r\n    height: calc(100vh - var(--header-h)  - 20px); \r\n}\r\n\r\n .hover{\r\n    outline: 2px solid green !important;\r\n    background-color: red;\r\n}";
+    var rootCss = ".leistrapUI-root{\r\n    position: relative;\r\n    --header-h : 60px;\r\n    --header-w : 100%;\r\n    --card-bg : #fff;\r\n    --side-fun-w : 80px;\r\n    \r\n}\r\n\r\nbody{\r\n    width: 100%;\r\n    height: 100vh;\r\n    overflow: hidden;\r\n}\r\n\r\n.leistrapUI-root .header{\r\n    position: fixed;\r\n    top: -10px;\r\n    background-color: var(--card-bg);\r\n    width: var(--header-w);\r\n    height:  calc(var(--header-h) + 10px);\r\n    border-bottom: 1px solid #ddd;\r\n    -webkit-user-select: none;\r\n    user-select: none;\r\n\r\n}\r\n\r\n.leistrapUI-root .sideFun{\r\n    padding: 10px;\r\n    position: fixed;\r\n    left: 0;\r\n    top: var(--header-h);\r\n    width: var(--side-fun-w);\r\n    height: calc(100vh - var(--header-h));\r\n    background-color: var(--card-bg);\r\n    border-right: 1px solid #ddd;\r\n    -webkit-user-select: none;\r\n    user-select: none;\r\n}\r\n\r\n.leistrapUI-root .contentContainer{\r\n    position: relative;\r\n    margin-top: calc(var(--header-h) - 23px );\r\n    margin-left: var(--side-fun-w);\r\n    width: calc(100% - var(--side-fun-w));\r\n    height: calc(100vh - var(--header-h)  - 8px); \r\n \r\n  \r\n}\r\n\r\n.leistrapUI-root .contentContainer .side{\r\n    width: 20%;\r\n    height: 100%;\r\n    background-color: var(--card-bg);\r\n    border-right: 1px solid #ddd;\r\n    -webkit-user-select: none;\r\n    user-select: none;\r\n    overflow: hidden;\r\n    overflow-y: auto;\r\n    padding: 20px;\r\n}\r\n\r\n.leistrapUI-root .contentContainer  .propSide{\r\n    width: 20%;\r\n    height: 100%;\r\n    background-color: var(--card-bg);\r\n    border-left: 1px solid #ddd;\r\n    padding: 4px 8px;\r\n    overflow: hidden;\r\n    overflow-y: auto;\r\n    -webkit-user-select: none;\r\n    user-select: none;\r\n}\r\n\r\n\r\n.leistrapUI-root .contentContainer .content{\r\n    position: relative;\r\n    width: 60%;\r\n    height:  100%;\r\n}\r\n\r\n.leistrapUI-root .contentContainer .content .workSpace{\r\n    position: relative;\r\n    width: 100%;\r\n    border: 0;\r\n    outline: 0;\r\n    height: calc(100vh - var(--header-h)  - 20px); \r\n}\r\n\r\n .hover{\r\n    outline: 2px solid green !important;\r\n    background-color: red;\r\n}\r\n\r\n.tb-b{\r\n    gap: 0 !important;\r\n}\r\n.tb-b *{\r\n    display: block;\r\n    background-color: transparent;\r\n    outline: none;\r\n    border: none;\r\n    cursor: pointer;\r\n    padding: 5px 7px;\r\n    margin: 0 !important;\r\n    border-radius: 5px;\r\n}\r\n\r\n.tb-b button:hover,\r\n.tb-b *.active{\r\n    background-color: var(--leis-select-cl) !important;\r\n}";
 
     function shortCut$1(element, objLeis) {
         
@@ -1345,13 +1345,14 @@
             className : "contentContainer leis-flex leis-row"
         });
 
-        const pageContainer = leistrap.create("div");
+        const pageContainer = leistrap.create("div", {className: "page-cd"});
 
         const tab = leisTab({
             btnParent : sideFun,
             contentParent :side
         });
-
+        tab.buttonsContainer.setClassName('tb-b leis-flex');
+        
         tab.define("pages",  pageContainer, {
             buttonText : "Pages",
             createButton : true
@@ -1393,7 +1394,7 @@
             btnParent : pageContainer,
             contentParent :content
         });
-        
+        pageTab.buttonsContainer.setClassName('tb-b leis-flex');
 
         /**
          * 
@@ -4545,6 +4546,88 @@
         return PosCard
     })();
 
+    var curCss = ".curItem{\r\n    padding: 4px 20px;\r\n    padding-right:0 ;\r\n    cursor: pointer;\r\n}\r\n\r\n.curItem:hover{\r\n    background-color: var(--leis-select-cl);\r\n    \r\n}\r\n\r\n.curItem i{\r\n    font-size: 19px;\r\n    min-width: 25px;\r\n}\r\n\r\n.curItem span{\r\n    font-size: 15px;\r\n}\r\n\r\n.curItem.selected{\r\n    background-color: rgba(221, 221, 230, 0.363);\r\n}\r\n.curItem.selected::after{\r\n    content: \"\";\r\n    display: inline-block;\r\n    position: absolute;\r\n    right: 8px;\r\n    top : 14px; \r\n    width: 15px;\r\n    height: 10px;\r\n    border-left: 2px solid  var(--leis-baseColor);\r\n    border-bottom: 2px solid  var(--leis-baseColor);\r\n    transform: rotateZ(-60deg);\r\n\r\n}\r\n";
+
+    leistrap.addCss(curCss);
+    const cursorIcons = {
+        "auto": "arrow-down-up",         // Automatique, basé sur le contexte
+        "default": "cursor",            // Curseur par défaut
+        "none": "slash-circle",         // Aucun curseur
+        "context-menu": "menu-app",     // Menu contextuel
+        "help": "question-circle",      // Aide
+        "pointer": "hand-index",        // Main (pointer)
+        "progress": "hourglass-split",  // Progression en cours
+        "wait": "hourglass",            // Attente
+        "cell": "grid",                 // Sélection de cellule
+        "crosshair": "crosshair",       // Ligne de visée
+        "text": "type",                 // Texte sélectionnable
+        "vertical-text": "text-paragraph", // Texte vertical
+        "alias": "box-arrow-up-right",  // Alias ou raccourci
+        "copy": "clipboard",            // Copier
+        "move": "arrows-move",          // Déplacement
+        "no-drop": "hand-thumbs-down",  // Zone où le déplacement est interdit
+        "not-allowed": "x-circle",      // Action non autorisée
+        "grab": "hand",                 // Prendre
+        "grabbing": "hand-thumbs-up",   // En train de saisir
+        "all-scroll": "arrows-collapse", // Déplacement dans toutes les directions
+        "col-resize": "arrows-expand",  // Redimensionnement horizontal
+        "row-resize": "arrows-expand",  // Redimensionnement vertical
+        "n-resize": "arrow-up",         // Redimensionnement vers le nord
+        "e-resize": "arrow-right",      // Redimensionnement vers l'est
+        "s-resize": "arrow-down",       // Redimensionnement vers le sud
+        "w-resize": "arrow-left",       // Redimensionnement vers l'ouest
+        "ne-resize": "arrow-up-right",  // Redimensionnement vers le nord-est
+        "nw-resize": "arrow-up-left",   // Redimensionnement vers le nord-ouest
+        "se-resize": "arrow-down-right",// Redimensionnement vers le sud-est
+        "sw-resize": "arrow-down-left", // Redimensionnement vers le sud-ouest
+        "ew-resize": "arrows-expand",   // Redimensionnement est-ouest
+        "ns-resize": "arrows-expand",   // Redimensionnement nord-sud
+        "nesw-resize": "arrows-diagonal", // Redimensionnement en diagonale
+        "nwse-resize": "arrows-diagonal", // Redimensionnement en diagonale opposée
+        "zoom-in": "zoom-in",           // Zoom avant
+        "zoom-out": "zoom-out"          // Zoom arrière
+      };
+      
+
+
+
+    const CursorProp = (function(){
+
+
+        let prevSelected = null;
+        const cursorPop = DropUp(null, null, null);
+        cursorPop.pop.setStyleSheet({
+            width: '170px',
+            height: "90vh",
+            padding : "0"
+       
+        })
+        .addElements(...Object.keys(cursorIcons).map(function(cur){
+
+            const elem =  leistrap.create('div', {
+                className: "leis-flex leis-row curItem",
+                onclick: function () {
+                    if(prevSelected){
+                        prevSelected .removeClassName("selected");
+                    }
+                    this.setClassName("selected");
+                    prevSelected = this;
+                    if(cursorPop.action) cursorPop.action(cur);
+                },
+                
+                content : [
+                    leistrap.create("i", {className: `bi bi-${cursorIcons[cur]}`}),
+                    leistrap.create("span", {text : cur})
+                ],
+
+            }); 
+            return elem
+        }));
+          
+        return cursorPop
+
+    })();
+
     /**
      * this file contains all configurations of all styling components
      * ths  `propEmitter` event emitter contains all event channels of the styling components
@@ -4668,6 +4751,17 @@
 
             };
          });
+
+        //cursor
+        propEmitter.handle("cursor", function(e){
+            CursorProp.action = function(style){
+                // leistrap.currentElement.setStyleSheet(style)
+                // getCurStyle(style)
+                console.log(style);
+                
+
+            };
+         });
         
         setShortCuts(null, window);
         function setShortCuts (ev, win){
@@ -4679,6 +4773,7 @@
             set_(win,"s+o", "border", BorderProp );
             set_(win,"s+l", "layout", LayoutProp );
             set_(win,"s+y", "position", PositionProp );
+            set_(win,"s+u", "cursor", CursorProp );
 
         }
 
@@ -4982,6 +5077,9 @@
         // listen to the cur style update event
         leistrap.event.handle("page-style:changed", function(e, style){
             event.invoke("page-style:changed", null, {cur, pageName, style});
+        });
+        event.handle("fls:add", function(ev, url){
+            document.body.appendChild(leistrap.create('script', { src : url }).render());
         });
         globalThis.pageApi = event;
 
