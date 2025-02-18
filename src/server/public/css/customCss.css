@@ -1,0 +1,91 @@
+body{
+
+    background: linear-gradient(135deg, #5b389c, #e3e3e3, #d1d1d1);
+    --leis-select-cl : rgba(64, 64, 190, 0.137);
+   
+ 
+    
+
+
+}
+
+
+.leistrapUI-root .contentContainer .side
+{
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: #d4cfcfc5;
+    /* backdrop-filter: brightness(100%);
+    backdrop-filter: contrast(100%); */
+    /* backdrop-filter: drop-shadow(4px 4px 10px rgb(211, 170, 57)); */
+    /* backdrop-filter: grayscale(30%); */
+    /* backdrop-filter: hue-rotate(120deg);
+    backdrop-filter: invert(70%);
+    backdrop-filter: opacity(20%);
+    backdrop-filter: sepia(90%);
+    backdrop-filter: saturate(80%); */
+    
+}
+.leistrapUI-root .header{
+    -webkit-app-region: drag;
+}
+
+
+
+.leis-modal-container{
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+}
+.leis-pop,
+.leistrapUI-root .sideFun,
+.leistrapUI-root .contentContainer  .propSide,
+.leistrapUI-root .header{
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
+    background-color:#ffffffe7;
+    /* backdrop-filter: brightness(100%);
+    backdrop-filter: contrast(100%); */
+    /* backdrop-filter: drop-shadow(4px 4px 10px rgb(211, 170, 57)); */
+    /* backdrop-filter: grayscale(30%); */
+    /* backdrop-filter: hue-rotate(120deg);
+    backdrop-filter: invert(70%);
+    backdrop-filter: opacity(20%);
+    backdrop-filter: sepia(90%);
+    backdrop-filter: saturate(80%); */
+    
+}
+.elemItem{
+    background-color:#ffffffdc;
+}
+
+label{
+    font-family: sans-serif;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="password"]{
+   border: 1.5px solid rgba(80, 80, 248, 0.753) !important;
+}
+
+*::-webkit-scrollbar {
+    height: 4px;
+    width: 10px;
+    cursor: default !important;
+
+} 
+
+/* *::-webkit-scrollbar-button{
+    background-color: var(--leis-baseColor);
+    width: 7px;
+    width: 7px;
+}
+*::-webkit-scrollbar-thumb {
+    background-color: rgba(222, 217, 217, 0.541);
+    background-color: var(--leis-baseColor);
+} */
+*::-webkit-scrollbar-thumb {
+    background-color: rgba(222, 217, 217, 0.541);
+    background-color: #aaa
+}

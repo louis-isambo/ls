@@ -1,0 +1,11 @@
+{
+    "server": {
+        "port"  : 5555,
+        "host" : "localhost",
+        "LSA" : "/js/ls-api.js",
+        "LSS" : "/socket.io/socket.io.js",
+        "protocol" : "http"
+    },
+
+    "version" : "1.0"
+}
